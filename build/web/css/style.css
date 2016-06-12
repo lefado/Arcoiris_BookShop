@@ -1,0 +1,430 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 28, 2016, 11:06:14 PM
+    Author     : mason
+*/
+
+.btn-default{
+    background-color: #41C17D;
+    color: white;
+    border-color: white;            
+}
+.btn-default:hover{
+    background-color: white;
+    color: #41C17D;
+    border-color: #41C17D;            
+}
+
+
+.btn-default2:hover{
+    background-color: #41C17D;
+    color: white;
+    border-color: white;            
+}
+.btn-default2{
+    background-color: white;
+    color: #41C17D;
+    border-color: #41C17D; 
+}
+
+
+.btn-circle {
+    margin-top: 7px;
+    margin-bottom: 25px;
+    margin-left: 53px;
+    width: 70px !important;
+    height: 70px !important;            
+    padding: 7px 16px !important;
+    border: 2px solid #FFF !important;
+    border-radius: 50% !important;
+    font-size: 40px !important;
+    color: #FFF !important;
+    background: transparent none repeat scroll 0px 0px;
+    transition: background 0.3s ease-in-out 0s;
+}
+.btn-circle:hover {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 53px;
+    width: 70px !important;
+    height: 70px !important;            
+    padding: 7px 16px !important;
+    border: 2px solid #FFF !important;
+    border-radius: 50% !important;
+    font-size: 40px !important;
+    color: #41C17D !important;
+    background: white none repeat scroll 0px 0px;
+    transition: background 0.3s ease-in-out 0s;
+}
+
+/*Sticky footer*/
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+.push-footer {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -80px;
+    /* Pad bottom by footer height */
+    padding: 0 0 80px;
+
+    margin-top: 100px !important;
+}
+
+
+/*INDEX*/
+
+/*intro*/
+#intro .slogan h2 {
+    color: #FFF;
+    text-shadow: none;
+    font-size: 65px;
+    line-height: 65px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+    text-shadow: -1px 0 1px #000;
+    text-align: center;
+}
+
+#intro .slogan h3 {
+    color: #fff;
+    text-shadow: -1px 1px 1px #000;
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+}
+#intro {
+    width:100%;
+    height: 600px;
+    position:relative;
+    background-size: 1900px 600px;
+    background: url(../images/back/bookshop.jpg) no-repeat top center;
+    padding:3% 0 0 0;
+    background-size: 100%;
+}
+#arco1{
+    color: #fd6d43;
+}
+#arco2{
+    color: #f1e94e;
+}
+#arco3{
+    color: #4ea8f1;
+}
+#arco4{
+    color: #feb32a;
+}
+#intro .btn-circle{                
+    margin-top: 240px;
+}
+
+#intro .btn-circle {
+    background: #41C17D none repeat scroll 0px 0px;
+    border: 2px solid #41C17D !important;
+}
+#intro .btn-circle:hover {
+    background: white none repeat scroll 0px 0px;
+    color: #41C17D !important;
+
+
+}
+
+#arcoiris{
+    -webkit-animation: fadeInRight 500ms ease-in-out 400ms both;
+    animation: fadeInRight 500ms ease-in-out 800ms both;
+}
+
+.slogan > h3{
+    -webkit-animation: fadeInRight 500ms ease-in-out 400ms both;
+    animation: fadeInRight 700ms ease-in-out 200ms both;
+}
+.slogan #welcome{
+    -webkit-animation: fadeInRight 500ms ease-in-out 400ms both;
+    animation: fadeInLeft 700ms ease-in-out 200ms both;
+}
+
+
+
+
+/*******/
+/*ABOUT*/
+/*******/
+#about{
+
+}
+#about > h1{
+    padding-top: 110px;
+    padding-bottom: 100px;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    letter-spacing: 1px;
+}
+/*animation popup*/
+.scaleIn {
+    -webkit-animation-name: scaleIn;
+    animation-name: scaleIn;
+}
+
+@-webkit-keyframes scaleIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.progress-bar {
+    background-color: #41C17D;
+    height: 23px;
+    font-size: 14px;
+}
+
+#about .userexperience {
+    color: white;
+    margin-top: 100px !important;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../images/about/about_user.jpg);
+    padding: 45px 0;
+}
+
+#about .userexperience > p{
+    padding-left: 40px !important;
+}
+
+#about .userexperience .bar-text{
+    padding-top: 30px;
+}
+
+
+/*******/
+/*BOOK*/
+/*******/
+
+
+#book{
+    background-color: #41C17D;
+}
+
+#book #title{
+    border-bottom: white solid 2px;
+    /*padding-top: 10px;*/
+    padding-bottom: 10px;
+}
+#book #title > h1{
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+}
+
+#book h3{
+    color: white;
+}
+
+#book #title > p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 200;
+    text-align: center;
+ 
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+#book .book-image{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#book .book-slide{
+    /*padding-top: 7px;*/    
+    /*padding-right: 30px;*/
+    /*margin-left: 5px;*/
+}
+
+#book .gallery{
+    /*padding-top: 7px;*/
+}
+
+#book h4{
+    /*padding-bottom: 73px;*/    
+}
+
+#book a,#book a:hover{   
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+#book a{
+    color: blue;
+}
+
+
+#book a:hover{
+    background-color: white;
+    color: #41C17D;
+}
+
+#book i{
+    font-size: 33px;
+    color: white;
+}
+#book #bookslider-el{
+    margin-bottom: 20px;
+}
+
+
+/*********/
+/*CLIENTS*/
+/*********/
+
+#client h2{
+    padding-top: 110px;
+    /*padding-bottom: 100px;*/
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    letter-spacing: 1px;
+}
+
+#client #info{
+    padding-top: 20px;
+}
+
+#client i{
+    color: #41C17D;
+}
+
+#client a{
+    margin-top: 25px;
+}
+
+#client #you{
+    color: #41C17D;
+}
+
+
+/********/
+/*CONTACT*/
+/********/
+
+#contact > h1{
+    padding-top: 110px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    letter-spacing: 1px;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 400px;
+    /*margin-bottom: 15px;*/
+    border: 2px solid #fff;
+    background-size: 100%;
+}
+
+/*email*/
+#emailform > h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#email-back  {
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(../images/back/contact.jpg);
+    padding: 80px 0;
+    padding-bottom: 120px;
+}
+
+#emailform #contactform .form-control {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+#emailform .address {
+    padding-top: 50px;
+}
+
+#emailform #contactform{
+    padding-top: 50px;
+}
+
+#contactbtn2{
+    margin-top: 20px;
+    width: 100%;
+}
+
+#emailform #contactform .form-control::-webkit-input-placeholder {
+    color:    #262626;
+}
+#emailform #contactform .form-control:-moz-placeholder {
+    color:    #262626;
+}
+#emailform #contactform .form-control::-moz-placeholder {
+    color:    #262626;
+}
+#emailform #contactform .form-control:-ms-input-placeholder {
+    color:    #262626;
+}

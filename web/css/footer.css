@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 29, 2016, 12:50:01 PM
+    Author     : mason
+*/
+
+/*sticky footer*/
+footer {
+    position: absolute;
+    margin-top: -80px; /* negative value of footer height */
+    height: 80px;    
+    width: 100%;
+    padding-top: 65px;
+}
+
+#footer-1{
+    margin-top: 14px;
+    background-color: #41C17D;
+}
+#footer-1-1{
+    margin-left: 40px;
+    margin-right: 50px;
+}
+#footer-2{
+    background-color: white;
+    color: #41C17D;
+}        
+.breadcrumb { 
+    margin-top: 20px;
+    background-color: #41C17D;
+    color:white;            
+}
+
+.breadcrumb > li > a{
+    color:white;
+    font-family: "Roboto","sans-serif";
+    font-size: 13px;
+    font-weight: 700;
+    padding-right: 3px;
+}
+
+.incident{
+    color:white;
+    margin-top: 27px;
+}
+
+
